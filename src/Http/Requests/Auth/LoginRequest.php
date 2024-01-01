@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelHtmx\UserRegistration\Http\Requests\Auth;
+namespace TroglodyteDice\Users\Http\Requests\Auth;
 
 use Illuminate\Auth\Events\Lockout;
 use Illuminate\Foundation\Http\FormRequest;

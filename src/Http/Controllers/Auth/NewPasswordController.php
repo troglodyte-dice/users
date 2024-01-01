@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelHtmx\UserRegistration\Http\Controllers\Auth;
+namespace TroglodyteDice\Users\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Auth\Events\PasswordReset;

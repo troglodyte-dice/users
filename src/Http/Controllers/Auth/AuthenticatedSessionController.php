@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelHtmx\UserRegistration\Http\Controllers\Auth;
+namespace TroglodyteDice\Users\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
@@ -8,7 +8,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
-use LaravelHtmx\UserRegistration\Http\Requests\Auth\LoginRequest;
+use TroglodyteDice\Users\Http\Requests\Auth\LoginRequest;
 
 class AuthenticatedSessionController extends Controller
 {

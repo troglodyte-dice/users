@@ -1,14 +1,14 @@
 <?php
 
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\AuthenticatedSessionController;
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\ConfirmablePasswordController;
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\EmailVerificationNotificationController;
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\EmailVerificationPromptController;
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\NewPasswordController;
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\PasswordController;
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\PasswordResetLinkController;
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\RegisteredUserController;
-use LaravelHtmx\UserRegistration\Http\Controllers\Auth\VerifyEmailController;
+use TroglodyteDice\Users\Http\Controllers\Auth\AuthenticatedSessionController;
+use TroglodyteDice\Users\Http\Controllers\Auth\ConfirmablePasswordController;
+use TroglodyteDice\Users\Http\Controllers\Auth\EmailVerificationNotificationController;
+use TroglodyteDice\Users\Http\Controllers\Auth\EmailVerificationPromptController;
+use TroglodyteDice\Users\Http\Controllers\Auth\NewPasswordController;
+use TroglodyteDice\Users\Http\Controllers\Auth\PasswordController;
+use TroglodyteDice\Users\Http\Controllers\Auth\PasswordResetLinkController;
+use TroglodyteDice\Users\Http\Controllers\Auth\RegisteredUserController;
+use TroglodyteDice\Users\Http\Controllers\Auth\VerifyEmailController;
 
 use Illuminate\Support\Facades\Route;
 
