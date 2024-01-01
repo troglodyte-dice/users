@@ -2,6 +2,13 @@
     "name": "troglodyte-dice/users",
     "description": "Opinionated way to deal with user registration and authentication",
     "type": "library",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TroglodyteDice\\Users\\TroglodyteUsersServiceProvider"
+            ]
+        }
+    },
     "require": {
         "troglodyte-dice/tailwind": "^1.0.0"
     },
