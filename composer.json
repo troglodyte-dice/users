@@ -1,0 +1,24 @@
+{
+    "name": "troglodyte-dice/users",
+    "description": "Opinionated way to deal with user registration and authentication",
+    "type": "library",
+    "require": {
+        "troglodyte-dice/tailwind": "^1.0.0"
+    },
+    "require-dev": {
+        "laravel/laravel": "^10.3"
+    },
+    "license": "UNLICENSE",
+    "autoload": {
+        "psr-4": {
+            "TroglodyteDice\\Users\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan Starikov",
+            "email": "ruslan@beef-burger.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
